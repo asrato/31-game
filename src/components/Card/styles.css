@@ -1,0 +1,47 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 102px;
+  min-width: 102px;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dedede;
+}
+
+.card-suit {
+  width: 40%;
+}
+
+.card-top-value-red,
+.card-top-value-black,
+.card-bottom-value-red,
+.card-bottom-value-black {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-top-value-red,
+.card-top-value-black {
+  top: 10px;
+  left: 10px;
+}
+
+.card-bottom-value-red,
+.card-bottom-value-black {
+  bottom: 10px;
+  right: 10px;
+}
+
+.card-top-value-red,
+.card-bottom-value-red {
+  color: red;
+}
+
+.card-top-value-black,
+.card-bottom-value-black {
+  color: black;
+}

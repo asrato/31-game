@@ -1,0 +1,16 @@
+.decider {
+    all: unset;
+    border: 2px solid white; 
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    width: 30px;
+    text-align: center;
+}
+
+.decider:hover {    
+    background-color: white;
+    color: #232323;
+    transition: background-color 0.5s, color 0.5s;
+}

@@ -1,0 +1,85 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden auto;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.app-title {
+  margin: 25px;
+  text-align: center;
+}
+
+.app-middle {
+  align-self: center;
+  display: flex;
+}
+
+.score {
+    font-size: 64px;
+}
+
+.decisions {
+    font-size: 24;
+    margin-bottom: 10px;
+}
+
+.app-decisions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.lose {
+    font-size: 48px;
+    color:red;
+}
+
+.win {
+    font-size: 48px;
+    color: greenyellow;
+}
+
+.app-btn {
+  margin: 25px;
+}
+
+.hand {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  max-width: 95%;
+  height: 150px;
+  padding-bottom: 25px;
+}
+
+.card-wrapper {
+    overflow: hidden;
+}
+
+.card-wrapper:last-child {
+  overflow: visible;
+}
+
+.btn {
+    all: unset;
+    border: 2px solid white; 
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: white;
+    color: #232323;
+    transition: background-color 0.5s, color 0.5s;
+}
