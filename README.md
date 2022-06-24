@@ -8,7 +8,7 @@
 
 ## Demo
 
-Click [here](https://asrato-website.web.app/) if you want to take a look at the application.
+Click [here](https://asrato-31-game.web.app/) if you want to take a look at the application.
 
 ## Table of contents
 
